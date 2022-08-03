@@ -1,0 +1,101 @@
+/* CSIS 3280 - 004 Final Project */
+/* Title : Group Project File Management System */
+/* Group Member : (1) William, Lee (2) Gabrielle, Bocardi de Morais */
+
+/* File : styles.css */
+
+/* additional css to the bootstrap */
+
+/* match height for all pages, or it will be content height which looks bad*/
+html, body {
+  background-color: #eaeaea;
+  height: 100%;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.login {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.login .form-floating:focus-within {
+  z-index: 2;
+}
+
+/* in input box of the login page,
+bottom of id and top of password input does not have radius
+to make it look connected */
+.login input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.login input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.button{
+  margin-top: -7px;
+  margin-left: -13px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* this is used for the loading button, this is used so that no javascript is used */
+.btn-close:focus{
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+#loading>.spinner-border{
+  opacity:0;
+}
+
+#loading:focus > .spinner-border{
+  opacity:100;
+}
+
+#loading:focus > .text{
+    display:none;
+}
+
+#loading:focus::after{
+  content:"Loading";
+}
+
+/* end of codes for loading button css */
+
+/* this background set to be light transparant. It is used during the modar */
+.bg-secondary{
+  --bs-bg-opacity:0.3;
+}
+
+/* font size */
+.fs-2{
+  font-size:0.7em!important;
+}
+
+/* this read-only is used for inputs, to give different access to different users  */
+.form-control[readonly]{
+  background-color:white;
+}
+
+/* this is used for the green shadow around every input form, to match the green concept */
+.form-select:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}

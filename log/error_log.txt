@@ -1,0 +1,975 @@
+[02-Aug-2022 21:13:50 Europe/Berlin] PHP Warning:  unlink(uploads/PHP/CSIS 3280 Final Project Report (2).docx): No such file or directory in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 156
+[02-Aug-2022 21:13:50 Europe/Berlin] PHP Warning:  rmdir(uploads/PHP/): No such file or directory in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 158
+[02-Aug-2022 21:13:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:156) in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 160
+[02-Aug-2022 21:13:55 Europe/Berlin] PHP Warning:  unlink(uploads/PHP/CSIS 3280 Final Project Report (2).docx): No such file or directory in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 156
+[02-Aug-2022 21:13:55 Europe/Berlin] PHP Warning:  rmdir(uploads/PHP/): No such file or directory in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 158
+[02-Aug-2022 21:13:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:156) in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 160
+[02-Aug-2022 22:39:04 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 293
+[02-Aug-2022 22:47:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-1' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:80
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(80): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(87): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(217): User_Project_RoleDAO::inviteNewUser(3, 1)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 80
+[02-Aug-2022 23:01:56 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-1' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:80
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(80): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(87): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(217): User_Project_RoleDAO::inviteNewUser(3, 1)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 80
+[02-Aug-2022 23:04:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-1' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:80
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(80): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(87): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(218): User_Project_RoleDAO::inviteNewUser(3, 1)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 80
+[02-Aug-2022 23:04:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-1' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:80
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(80): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(87): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(218): User_Project_RoleDAO::inviteNewUser(3, 1)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 80
+[02-Aug-2022 23:04:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-1' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:80
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(80): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(87): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(218): User_Project_RoleDAO::inviteNewUser(3, 1)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 80
+[02-Aug-2022 23:05:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-1' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:80
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(80): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(87): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(218): User_Project_RoleDAO::inviteNewUser(3, 1)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 80
+[02-Aug-2022 23:08:28 Europe/Berlin] PHP Warning:  Undefined array key "studentID" in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225
+[02-Aug-2022 23:08:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UserDAO::getUser(): Argument #1 ($studentID) must be of type string, null given, called in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225 and defined in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php:28
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(225): UserDAO::getUser(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php on line 28
+[02-Aug-2022 23:09:02 Europe/Berlin] PHP Warning:  Undefined array key "studentID" in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225
+[02-Aug-2022 23:09:02 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UserDAO::getUser(): Argument #1 ($studentID) must be of type string, null given, called in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225 and defined in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php:28
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(225): UserDAO::getUser(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php on line 28
+[02-Aug-2022 23:19:37 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 294
+[02-Aug-2022 23:20:10 Europe/Berlin] PHP Warning:  Undefined array key "studentID" in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225
+[02-Aug-2022 23:20:10 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UserDAO::getUser(): Argument #1 ($studentID) must be of type string, null given, called in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225 and defined in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php:28
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(225): UserDAO::getUser(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php on line 28
+[02-Aug-2022 23:20:40 Europe/Berlin] PHP Warning:  Undefined array key "studentID" in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225
+[02-Aug-2022 23:20:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UserDAO::getUser(): Argument #1 ($studentID) must be of type string, null given, called in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225 and defined in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php:28
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(225): UserDAO::getUser(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php on line 28
+[02-Aug-2022 23:20:45 Europe/Berlin] PHP Warning:  Undefined array key "studentID" in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225
+[02-Aug-2022 23:20:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UserDAO::getUser(): Argument #1 ($studentID) must be of type string, null given, called in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225 and defined in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php:28
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(225): UserDAO::getUser(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php on line 28
+[02-Aug-2022 23:20:47 Europe/Berlin] PHP Warning:  Undefined array key "studentID" in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225
+[02-Aug-2022 23:20:47 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UserDAO::getUser(): Argument #1 ($studentID) must be of type string, null given, called in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225 and defined in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php:28
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(225): UserDAO::getUser(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php on line 28
+[02-Aug-2022 23:21:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserID() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:225
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 225
+[02-Aug-2022 23:21:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserID() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:226
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 226
+[02-Aug-2022 23:22:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserID() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:226
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 226
+[02-Aug-2022 23:22:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-1' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:80
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(80): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(100): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(227): User_Project_RoleDAO::changeUserStatus(3, 1, 2)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 80
+[02-Aug-2022 23:23:04 Europe/Berlin] PHP Warning:  Undefined array key "student" in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 226
+[02-Aug-2022 23:23:04 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UserDAO::getUser(): Argument #1 ($studentID) must be of type string, null given, called in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 226 and defined in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php:28
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(226): UserDAO::getUser(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\UserDAO.class.php on line 28
+[02-Aug-2022 23:23:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-1' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:80
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(80): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(100): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(227): User_Project_RoleDAO::changeUserStatus(3, 1, 2)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 80
+[02-Aug-2022 23:43:18 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 295
+[03-Aug-2022 00:02:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class User_Project_Role could not be converted to string in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:911
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(272): Page::getProjectMembers(Array, Object(User_Project_Role))
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 911
+[03-Aug-2022 00:02:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class User_Project_Role could not be converted to string in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:911
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(272): Page::getProjectMembers(Array, Object(User_Project_Role))
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 911
+[03-Aug-2022 01:34:13 Europe/Berlin] PHP Warning:  Undefined property: User_Project_Role::$getRoleID in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 423
+[03-Aug-2022 01:34:17 Europe/Berlin] PHP Warning:  Undefined property: User_Project_Role::$getRoleID in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 423
+[03-Aug-2022 01:34:21 Europe/Berlin] PHP Warning:  Undefined property: User_Project_Role::$getRoleID in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 423
+[03-Aug-2022 01:34:22 Europe/Berlin] PHP Warning:  Undefined property: User_Project_Role::$getRoleID in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 423
+[03-Aug-2022 01:34:23 Europe/Berlin] PHP Warning:  Undefined property: User_Project_Role::$getRoleID in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 423
+[03-Aug-2022 01:34:31 Europe/Berlin] PHP Warning:  Undefined property: User_Project_Role::$getRoleID in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 423
+[03-Aug-2022 02:49:40 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 307
+[03-Aug-2022 03:34:48 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:64
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(64): array_push(NULL, Object(User_Project_Role))
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 64
+[03-Aug-2022 03:34:49 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:64
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(64): array_push(NULL, Object(User_Project_Role))
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 64
+[03-Aug-2022 03:51:15 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 313
+[03-Aug-2022 03:56:36 Europe/Berlin] PHP Warning:  Undefined variable $array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 66
+[03-Aug-2022 03:58:23 Europe/Berlin] PHP Warning:  Undefined variable $array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 66
+[03-Aug-2022 03:58:24 Europe/Berlin] PHP Warning:  Undefined variable $array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 66
+[03-Aug-2022 03:59:26 Europe/Berlin] PHP Warning:  Undefined variable $array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 67
+[03-Aug-2022 04:02:20 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:02:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:02:22 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:02:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:02:23 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:02:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:27 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:33 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:37 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:40 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:45 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:03:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:04:23 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:04:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:04:24 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:04:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:06:56 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:06:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:07:41 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:07:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:07:42 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:07:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:07:44 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:07:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:01 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:02 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:04 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:04 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:06 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:16 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:09:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:12:26 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:12:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:12:29 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:12:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:12:53 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:12:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:12:54 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:12:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:11 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:12 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:22 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:23 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:24 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:25 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:27 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:27 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:27 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:27 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:28 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:34 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:35 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:13:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:44 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:45 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:46 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:47 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:53 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:54 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:55 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:56 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:57 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:14:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:42 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:43 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:44 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:45 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:46 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:47 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:48 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:15:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:30 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:39 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:41 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:41 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:43 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:43 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:43 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:43 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:44 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:44 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:50 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:52 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:53 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:55 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:55 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:59 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:16:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:18:32 Europe/Berlin] PHP Warning:  Undefined variable $existingProject in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 100
+[03-Aug-2022 04:18:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:100
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 100
+[03-Aug-2022 04:18:34 Europe/Berlin] PHP Warning:  Undefined variable $existingProject in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 100
+[03-Aug-2022 04:18:34 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:100
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 100
+[03-Aug-2022 04:18:35 Europe/Berlin] PHP Warning:  Undefined variable $existingProject in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 100
+[03-Aug-2022 04:18:35 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:100
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 100
+[03-Aug-2022 04:18:38 Europe/Berlin] PHP Warning:  Undefined variable $existingProject in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 100
+[03-Aug-2022 04:18:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:100
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 100
+[03-Aug-2022 04:19:02 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:19:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:19:04 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:19:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:19:05 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:19:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:19:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:19:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:26:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:26:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:26:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(279): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:27:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on array in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:10 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:11 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:12 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:13 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:15 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:16 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:28:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:29:32 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:68) in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 86
+[03-Aug-2022 04:30:43 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:30:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:30:49 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:30:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:30:50 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:30:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:25 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:37 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:40 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:41 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:42 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:31:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:32:02 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:32:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:32:05 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:32:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(276): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:32:42 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:32:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:33:26 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:33:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:33:38 Europe/Berlin] PHP Warning:  Undefined array key 3 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:33:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:33:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(285): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:35:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(285): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:35:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:35:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:35:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:35:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:35:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:35:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(280): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:36:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:36:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:36:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:36:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:36:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:36:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:38:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getUserType() on bool in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:909
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectMembers(Array, false)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 909
+[03-Aug-2022 04:40:01 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 95
+[03-Aug-2022 04:40:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:95
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 95
+[03-Aug-2022 04:40:25 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:40:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:40:29 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:40:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:42:52 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:42:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:43:03 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:08 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:23 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(278): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:32 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:33 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getRoleID() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php:425
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(277): Page::getProjectHeader(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 425
+[03-Aug-2022 04:43:52 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 95
+[03-Aug-2022 04:43:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:95
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 95
+[03-Aug-2022 04:45:38 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:45:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:45:40 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:45:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:46:00 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:46:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:46:02 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:46:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:46:03 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 04:46:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getProjectname() on null in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
+[03-Aug-2022 08:02:15 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 366
+[03-Aug-2022 09:14:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "getProjectName", expecting "(" in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 819
