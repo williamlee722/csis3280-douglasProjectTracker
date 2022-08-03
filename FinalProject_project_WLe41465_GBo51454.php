@@ -278,7 +278,7 @@ if(isset($_SESSION['studentID'])){
     // If user click invite new member button after filling in the new member student ID
     if(isset($_POST['inviteMembers'])){
         // check if there are any errors
-        $valid_status = Validate::validateInvites(UserDAO::getUsers());
+        $valid_status = Validate::validateInvites(UserDAO::getUsers(), User_Project_RoleDAO::getAllProjectUsers($_SESSION['projectName']));
         // if there are no errors
         if(empty($valid_status)){
             // Assemble new member info

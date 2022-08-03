@@ -129,7 +129,7 @@ class Validate {
         return self::$valid_status;
     }
 
-    static function validateInvites($users){
+    static function validateInvites($users, $projectUsers){
 
         $studentIDOptions = array("options"=>array("regexp"=> "/^3003\d{5}$/"));
         $validStudentID = filter_input(INPUT_POST, 'studentID', FILTER_VALIDATE_REGEXP, $studentIDOptions);
@@ -152,6 +152,15 @@ class Validate {
         
         if($validStudentID && !in_array($_POST["studentID"], $user)){
             self::$valid_status['studentID'] = "Account doesnt exist.";
+        }
+
+        $projectUser=array();
+        for($i=0;$i<count($projectUsers); $i++){
+            array_push($projectUser, $projectUsers[$i]->getStudentID());
+        }
+
+        if($validStudentID && in_array($_POST["studentID"], $projectUser)){
+            self::$valid_status['studentID'] = "Account is already a member.";
         }
 
         return self::$valid_status;

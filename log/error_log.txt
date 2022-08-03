@@ -973,3 +973,24 @@ Stack trace:
   thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 96
 [03-Aug-2022 08:02:15 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php on line 366
 [03-Aug-2022 09:14:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "getProjectName", expecting "(" in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Entity\Page.class.php on line 819
+[03-Aug-2022 10:09:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2-2' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:63
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(63): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(87): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(288): User_Project_RoleDAO::inviteNewUser(2, 2)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 63
+[03-Aug-2022 10:18:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2-2' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:63
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(63): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(87): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(288): User_Project_RoleDAO::inviteNewUser(2, 2)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 63
+[03-Aug-2022 10:18:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2-3' for key 'PRIMARY' in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php:63
+Stack trace:
+#0 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php(63): PDOStatement->execute()
+#1 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\User_Project_RoleDAO.class.php(87): PDOService->execute()
+#2 C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\FinalProject_project_WLe41465_GBo51454.php(288): User_Project_RoleDAO::inviteNewUser(2, 3)
+#3 {main}
+  thrown in C:\xampp\htdocs\FinalProject_WLe41465_GBo51454\inc\Utility\PDOService.class.php on line 63
